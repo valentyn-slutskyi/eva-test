@@ -2,6 +2,7 @@ package eva.test.task.controller;
 
 import eva.test.task.model.Product;
 import eva.test.task.service.ProductService;
+import java.util.List;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,8 +15,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
-
-import java.util.List;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
